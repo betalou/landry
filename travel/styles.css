@@ -1,0 +1,26 @@
+body {
+    padding: 2.5%;
+}
+header {
+    border: 1px solid black;
+    padding: 2.5%;
+    background-image: url(/img/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+
+div {
+    border: 1px solid black;
+    padding: 2.5%;
+}
+
+.fts {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.fts div {
+    flex: 1;
+}
